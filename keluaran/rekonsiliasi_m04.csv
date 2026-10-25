@@ -1,0 +1,8 @@
+tabel,langkah,baris_sebelum,baris_sesudah,selisih,penjelasan
+transaksi,rekonsiliasi total transaksi (B.1),24288,24000,288,Transaksi berkurang 288 baris: 192 salinan eksak dan 96 salinan dekat. Tahap eksak: 24288 menjadi 24096; tahap dekat: 24096 menjadi 24000. Standardisasi tidak menghapus baris.
+pelanggan_web,salinan eksak dibuang (C.1),3260,3160,100,100 baris salinan eksak dibuang.
+pelanggan_web,pendaftaran ulang ditandai (C.4),3160,3160,0,60 pasangan diperiksa; penandaan pendaftaran ulang tidak menghapus baris.
+pelanggan_app,pemeriksaan duplikat sumber (D.1),2600,2600,0,0 baris duplikat identik penuh; 0 customer_id berulang. Tidak ada penghapusan pada langkah ini.
+pelanggan,penggabungan web dan aplikasi (D.1),5760,5760,0,3160 baris web dan 2600 baris aplikasi menghasilkan 5760 baris pelanggan.
+entitas,peta entitas hasil resolusi,5760,5760,0,Peta entitas berisi 5760 baris; 60 pasangan web-web diperiksa.
+produk,pemeriksaan duplikat produk (Latihan 4.2),850,850,0,0 produk teridentifikasi identik selain kode dan nama.
